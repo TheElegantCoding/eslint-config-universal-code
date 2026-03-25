@@ -1,19 +1,14 @@
 import elegantCoding from './dist/index.js';
 
-export default elegantCoding({
+const config = elegantCoding({
+  stylistic: true,
+  typescript: true,
   astro: true,
+  regex: true,
+  yml: true,
   html: true,
   json: true,
-  solid: true,
-  stylistic: true,
-  tailwind: true,
-  typescript: true,
-  yml: true
-}, [
-  {
-    rules:
-    {
-      'unicorn/no-null': 'off'
-    }
-  }
-]);
+  tailwind: true
+});
+
+export default config;
