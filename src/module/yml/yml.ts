@@ -1,27 +1,17 @@
-import { ymlDisabledRule } from '@module/yml/rule/yml_disabled_rule';
+/* eslint-disable import/no-namespace */
 import { ymlGeneralRule } from '@module/yml/rule/yml_general_rule';
 import pluginYml from 'eslint-plugin-yml';
-import parserYml from 'yaml-eslint-parser';
+import * as yamlParser from 'yaml-eslint-parser';
 
 import type { Linter } from 'eslint';
+import { PACKAGE_NAME } from '@global/constant/package_name';
 
-const yml: Linter.Config =
-{
-  files: [ '**/*.y?(a)ml' ],
-  languageOptions:
-  {
-    parser: parserYml
-  },
-  name: 'yml',
-  plugins:
-  {
-    yml: pluginYml as unknown as Plugin
-  },
-  rules:
-  {
-    ...ymlGeneralRule,
-    ...ymlDisabledRule
-  }
+const yml: Linter.Config = {
+  files: ['**/*.y?(a)ml'],
+  languageOptions: { parser: yamlParser },
+  name: `${PACKAGE_NAME}/yml`,
+  plugins: { yml: pluginYml as unknown as Plugin },
+  rules: ymlGeneralRule
 };
 
 export { yml };
