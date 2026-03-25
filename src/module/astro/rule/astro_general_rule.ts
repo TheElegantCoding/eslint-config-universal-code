@@ -1,7 +1,6 @@
 import type { Linter } from 'eslint';
 
-const astroGeneralRule: Linter.RulesRecord =
-{
+const astroGeneralRule: Linter.RulesRecord = {
   'astro/jsx-a11y/alt-text': 'error',
   'astro/jsx-a11y/anchor-ambiguous-text': 'error',
   'astro/jsx-a11y/anchor-has-content': 'error',
@@ -46,13 +45,10 @@ const astroGeneralRule: Linter.RulesRecord =
   'astro/no-unused-css-selector': 'error',
   'astro/no-unused-define-vars-in-style': 'error',
   'astro/prefer-class-list-directive': 'error',
-  'astro/semi':
-  [
+  'astro/semi': [
     'error',
     'always',
-    {
-      omitLastInOneLineBlock: false
-    }
+    { omitLastInOneLineBlock: false }
   ],
   'astro/valid-compile': 'error'
 };
