@@ -2,8 +2,7 @@ import { error } from '@module/javascript/rule/error';
 
 import type { Linter } from 'eslint';
 
-const typescriptStylistic: Linter.RulesRecord =
-{
+const typescriptStylistic: Linter.RulesRecord = {
   'no-empty-function': 'off',
   'ts/adjacent-overload-signatures': 'error',
   'ts/array-type': 'error',
@@ -12,7 +11,7 @@ const typescriptStylistic: Linter.RulesRecord =
   'ts/consistent-generic-constructors': 'error',
   'ts/consistent-indexed-object-style': 'error',
   'ts/consistent-type-assertions': 'error',
-  'ts/consistent-type-definitions': [ 'error', 'type' ],
+  'ts/consistent-type-definitions': ['error', 'type'],
   'ts/no-empty-function': error['no-empty-function'] ?? 'off',
   'ts/no-inferrable-types': 'error',
   'ts/prefer-for-of': 'error',
