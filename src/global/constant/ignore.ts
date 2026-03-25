@@ -1,32 +1,28 @@
-const IGNORE =
-[
-  '**/node_modules',
-  '**/dist',
-  '**/package-lock.json',
-  '**/yarn.lock',
-  '**/pnpm-lock.yaml',
-  '**/bun.lockb',
+const IGNORE = [
+  // Directorios de dependencias y build (Standard)
+  'node_modules',
+  'dist',
+  'output',
+  'coverage',
+  'temp',
 
-  '**/output',
-  '**/coverage',
-  '**/temp',
-  '**/.vitepress/cache',
-  '**/.nuxt',
   '**/.next',
+  '**/.nuxt',
   '**/.vercel',
-  '**/.changeset',
-  '**/.idea',
   '**/.cache',
-  '**/.output',
-  '**/.vite-inspect',
+  '**/.vitepress/cache',
   '**/.eslint-config-inspector',
+  '**/.astro',
 
+  '**/*.lock',
+  '**/bun.lockb',
+  '**/pnpm-lock.yaml',
   '**/CHANGELOG*.md',
-  '**/*.min.*',
   '**/LICENSE*',
-  '**/__snapshots__',
+
   '**/auto-import?(s).d.ts',
-  '**/components.d.ts'
+  '**/components.d.ts',
+  '**/__snapshots__'
 ];
 
 export { IGNORE };
