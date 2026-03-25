@@ -1,36 +1,22 @@
-import { jsonDisabledRule } from '@module/json/rule/json_disabled_rule';
+/* eslint-disable import/no-namespace */
 import { jsonGeneralRule } from '@module/json/rule/json_general_rule';
 import { jsonOverride } from '@module/json/rule/json_override';
 import pluginJson from 'eslint-plugin-jsonc';
-import parserJson from 'jsonc-eslint-parser';
+import * as jsoncParser from 'jsonc-eslint-parser';
 
 import type { Linter } from 'eslint';
+import { PACKAGE_NAME } from '@global/constant/package_name';
 
-const json: Linter.Config[] =
-[
-  {
-    files:
-    [
-      '**/*.json',
-      '**/*.json5',
-      '**/*.jsonc'
-    ],
-    languageOptions:
-    {
-      parser: parserJson
-    },
-    name: 'json',
-    plugins:
-    {
-      json: pluginJson as unknown as Plugin
-    },
-    rules:
-    {
-      ...jsonGeneralRule,
-      ...jsonDisabledRule
-    }
-  },
-  ...jsonOverride
-];
+const json: Linter.Config[] = [{
+  files: [
+    '**/*.json',
+    '**/*.json5',
+    '**/*.jsonc'
+  ],
+  languageOptions: { parser: jsoncParser },
+  name: `${PACKAGE_NAME}/json`,
+  plugins: { json: pluginJson as unknown as Plugin },
+  rules: jsonGeneralRule
+}, ...jsonOverride];
 
 export { json };
