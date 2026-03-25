@@ -1,20 +1,13 @@
+import { INDENT } from '@global/constant/format_rules';
 import type { Linter } from 'eslint';
 
-const indent = 2;
-
-const htmlGeneralRule: Linter.RulesRecord =
-{
-  'html/attrs-newline':
-  [
-    'error',
-    {
-      closeStyle: 'newline',
-      ifAttrsThan: 2
-    }
-  ],
+const htmlGeneralRule: Linter.RulesRecord = {
+  '@html-eslint/class-spacing': 'error',
+  '@html-eslint/no-obsolete-attrs': 'error',
+  'html/attrs-newline': ['error', { closeStyle: 'newline', ifAttrsThan: 2 }],
   'html/element-newline': 'error',
   'html/id-naming-convention': 'error',
-  'html/indent': [ 'error', indent ],
+  'html/indent': ['error', INDENT],
   'html/lowercase': 'error',
   'html/no-abstract-roles': 'error',
   'html/no-accesskey-attrs': 'error',
@@ -26,7 +19,7 @@ const htmlGeneralRule: Linter.RulesRecord =
   'html/no-ineffective-attrs': 'error',
   'html/no-inline-styles': 'error',
   'html/no-invalid-role': 'error',
-  'html/no-multiple-empty-lines': [ 'error', { max: 1 } ],
+  'html/no-multiple-empty-lines': ['error', { max: 1 }],
   'html/no-multiple-h1': 'error',
   'html/no-nested-interactive': 'error',
   'html/no-non-scalable-viewport': 'error',
@@ -36,7 +29,7 @@ const htmlGeneralRule: Linter.RulesRecord =
   'html/no-skip-heading-levels': 'error',
   'html/no-target-blank': 'error',
   'html/no-trailing-spaces': 'error',
-  'html/quotes': [ 'error', 'single' ],
+  'html/quotes': ['error', 'single'],
   'html/require-closing-tags': 'error',
   'html/require-doctype': 'error',
   'html/require-frame-title': 'error',
@@ -48,7 +41,7 @@ const htmlGeneralRule: Linter.RulesRecord =
   'html/require-meta-viewport': 'error',
   'html/require-open-graph-protocol': 'error',
   'html/require-title': 'error',
-  'html/sort-attrs': [ 'error', { priority: [] } ]
+  'html/sort-attrs': ['error', { priority: [] }]
 };
 
 export { htmlGeneralRule };
