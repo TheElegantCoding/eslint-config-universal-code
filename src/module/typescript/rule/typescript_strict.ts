@@ -2,22 +2,18 @@ import { error } from '@module/javascript/rule/error';
 
 import type { Linter } from 'eslint';
 
-const typescriptStrict: Linter.RulesRecord =
-{
+const typescriptStrict: Linter.RulesRecord = {
   'no-array-constructor': 'off',
   'no-loss-of-precision': 'off',
   'no-unused-vars': 'off',
   'no-useless-constructor': 'off',
-  'ts/ban-ts-comment': [
-    'error',
-    {
-      minimumDescriptionLength: 3,
-      'ts-check': false,
-      'ts-expect-error': 'allow-with-description',
-      'ts-ignore': true,
-      'ts-nocheck': true
-    }
-  ],
+  'ts/ban-ts-comment': ['error', {
+    minimumDescriptionLength: 3,
+    'ts-check': false,
+    'ts-expect-error': 'allow-with-description',
+    'ts-ignore': true,
+    'ts-nocheck': true
+  }],
   'ts/no-array-constructor': error['no-array-constructor'] ?? 'off',
   'ts/no-duplicate-enum-values': 'error',
   'ts/no-dynamic-delete': 'error',
