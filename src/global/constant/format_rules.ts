@@ -1,0 +1,13 @@
+const INDENT = 2;
+const MAX_LINE_LENGTH = 120;
+const COMPLEXITY = 20;
+const MAX_DEPTH = 4;
+const MAX_STATEMENTS = 10;
+
+export {
+  INDENT,
+  MAX_LINE_LENGTH,
+  COMPLEXITY,
+  MAX_DEPTH,
+  MAX_STATEMENTS
+};
