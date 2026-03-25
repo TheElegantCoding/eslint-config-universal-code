@@ -5,16 +5,13 @@ import { regexStylisticRule } from '@module/regex/rule/regex_stylistic';
 import pluginRegex from 'eslint-plugin-regexp';
 
 import type { Linter } from 'eslint';
+import { PACKAGE_NAME } from '@global/constant/package_name';
 
-const regex: Linter.Config =
-{
-  name: 'regex',
-  plugins:
-  {
-    regex: pluginRegex
-  },
-  rules:
-  {
+const regex: Linter.Config = {
+  files: ['**/*.{ts,tsx,js,jsx,astro}'],
+  name: `${PACKAGE_NAME}/regex`,
+  plugins: { regex: pluginRegex },
+  rules: {
     ...regexBestPracticeRule,
     ...regexErrorRule,
     ...regexStylisticRule,
