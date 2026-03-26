@@ -6,7 +6,7 @@ import type { Linter } from 'eslint';
 const astroOverride: Linter.Config[] = [
   {
     files: ['**/*.astro'],
-    name: `${PACKAGE_NAME}/astro:override`,
+    name: `${PACKAGE_NAME}/astro/override`,
     rules: {
       'import/exports-last': 'off',
       'import/named': 'off',
@@ -18,7 +18,7 @@ const astroOverride: Linter.Config[] = [
   },
   {
     files: ['astro.config.mjs'],
-    name: `${PACKAGE_NAME}/astro:import:config`,
+    name: `${PACKAGE_NAME}/astro/import/config`,
     rules: { 'import/no-anonymous-default-export': 'off' }
   },
   {
@@ -28,7 +28,7 @@ const astroOverride: Linter.Config[] = [
       '**/api/*.astro',
       '**/api/**/*.astro'
     ],
-    name: `${PACKAGE_NAME}/astro:unicorn`,
+    name: `${PACKAGE_NAME}/astro/unicorn`,
     rules: {
       'unicorn/filename-case': ['off', {
         cases: {
