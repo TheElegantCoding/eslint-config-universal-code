@@ -1,11 +1,11 @@
 /* eslint-disable import/no-namespace */
+import { PACKAGE_NAME } from '@global/constant/package_name';
 import { jsonGeneralRule } from '@module/json/rule/json_general_rule';
 import { jsonOverride } from '@module/json/rule/json_override';
 import pluginJson from 'eslint-plugin-jsonc';
 import * as jsoncParser from 'jsonc-eslint-parser';
 
 import type { Linter } from 'eslint';
-import { PACKAGE_NAME } from '@global/constant/package_name';
 
 const json: Linter.Config[] = [{
   files: [
