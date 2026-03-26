@@ -20,24 +20,27 @@ const perfectionistGeneralRule: Linter.RulesRecord = {
   'perfectionist/sort-imports': ['error', {
     groups: [
       'builtin',
-      'external',
       'internal',
-      'parent',
-      'sibling',
+      ['value-builtin', 'value-external'],
+      'value-internal',
+      [
+        'value-parent',
+        'value-sibling',
+        'value-index'
+      ],
+      'type-import',
+      'type-internal',
+      [
+        'type-parent',
+        'type-sibling',
+        'type-index'
+      ],
+      'ts-equals-import',
       'index',
-      'unknown',
-      'type',
-      'builtin-type',
-      'external-type',
-      'internal-type',
-      'parent-type',
-      'sibling-type',
-      'index-type',
-      'side-effect',
-      'object',
-      'style'
+      'style',
+      'unknown'
     ],
-    newlinesBetween: 'always',
+    newlinesBetween: 1,
     order: 'asc',
     type: 'natural'
   }],
@@ -48,7 +51,6 @@ const perfectionistGeneralRule: Linter.RulesRecord = {
   'perfectionist/sort-named-exports': ['error', { order: 'asc', type: 'line-length' }],
   'perfectionist/sort-named-imports': ['error', { order: 'asc', type: 'line-length' }],
   'perfectionist/sort-object-types': ['error', { ignoreCase: true, type: 'line-length' }],
-  'perfectionist/sort-objects': ['error', { ignoreCase: true, type: 'natural' }],
   'perfectionist/sort-union-types': ['error', { order: 'asc', type: 'line-length' }]
 };
 
