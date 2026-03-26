@@ -48,7 +48,6 @@
     "build": "tsup",
     "dev": "npx @eslint/config-inspector --config eslint.config.js",
     "build:inspector": "pnpm build && npx @eslint/config-inspector build",
-    "preview": "eslint-flat-config-viewer",
     "type-check": "tsc --pretty --noEmit",
     "lint": "pnpm lint-eslint",
     "lint-eslint": "eslint . --fix "
