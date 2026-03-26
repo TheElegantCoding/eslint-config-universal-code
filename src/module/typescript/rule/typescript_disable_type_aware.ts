@@ -30,7 +30,6 @@ const typescriptDisableTypeAware: Linter.RulesRecord = {
   'ts/no-unsafe-member-access': 'off',
   'ts/no-unsafe-return': 'off',
   'ts/no-unsafe-unary-minus': 'off',
-  'ts/non-nullable-type-assertion-style': 'off',
   'ts/only-throw-error': 'off',
   'ts/prefer-destructuring': 'off',
   'ts/prefer-find': 'off',
@@ -50,7 +49,6 @@ const typescriptDisableTypeAware: Linter.RulesRecord = {
   'ts/restrict-plus-operands': 'off',
   'ts/restrict-template-expressions': 'off',
   'ts/return-await': 'off',
-  'ts/strict-boolean-expressions': 'off',
   'ts/switch-exhaustiveness-check': 'off',
   'ts/unbound-method': 'off',
   'ts/use-unknown-in-catch-callback-variable': 'off'
