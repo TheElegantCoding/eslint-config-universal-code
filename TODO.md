@@ -1,3 +1,0 @@
-# Todo
-
-- [ ] svelte eslint rules
