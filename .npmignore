@@ -13,14 +13,12 @@ yarn.lock
 
 # Dependencies
 node_modules
-src
 
 # Source code
 src
 
 # Markdown
 CHANGELOG.md
-TODO.md
 
 # Temp files
 *.log
