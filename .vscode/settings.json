@@ -1,17 +1,17 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
+  "editor.suggest.showWords": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.addMissingImports": "explicit",
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never"
   },
-  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "javascript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "js/ts.format.enabled": false,
+  "js/ts.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "js/ts.format.placeOpenBraceOnNewLineForFunctions": true,
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
+  "eslint.run": "onSave",
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -51,8 +51,5 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "yaml.schemas": {
-    "https://json.schemastore.org/github-issue-forms.json": "file:///c%3A/Users/luism/Desktop/codernaut/project/eslint-config-elegant-coding/.github/ISSUE_TEMPLATE/config.yml"
   }
 }
