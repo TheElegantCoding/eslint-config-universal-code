@@ -1,0 +1,16 @@
+<svg width="1320" height="12" viewBox="0 0 1320 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1320" height="3" fill="url(#paint0_linear_5784_9390)"/>
+  <defs>
+    <linearGradient id="paint0_linear_5784_9390" x1="1320" y1="6" x2="0" y2="6" gradientUnits="userSpaceOnUse">
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        values="0 0; 1320 0; -1320 0; 0 0"
+        dur="10s"
+        repeatCount="indefinite"
+      />
+      <stop stop-color="#CE009F"/>
+      <stop offset="1" stop-color="#3059E4"/>
+    </linearGradient>
+  </defs>
+</svg>
