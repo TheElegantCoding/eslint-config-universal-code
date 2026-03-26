@@ -2,7 +2,7 @@
 
 <h1 id="top" align="center">
   <img src="./asset/illustration/eslint.svg" width="32px" align="center" />
-  Universal ESlint Configuration
+  Universal Eslint Configuration
 </h1>
 
 <br />
@@ -123,8 +123,6 @@ pnpm i -D eslint-config-elegant-coding
 ```bash
 yarn i -D eslint-config-elegant-coding
 ```
-
-<h3><img src="./asset/icon/npm.svg" width="24px" align="center" /> Npm</h3>
 
 <br />
 
@@ -253,7 +251,7 @@ The list of the used plugins and the names are here:
   align="center"
 />
 
-<h2 id="about">
+<h2 id="vscode-settings">
   <img src="./asset/icon/information.svg" width="24px" align="center"/>
   Recommended VsCode Configuration
 </h2>
