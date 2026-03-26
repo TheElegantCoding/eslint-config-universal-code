@@ -1,7 +1,7 @@
+import { PACKAGE_NAME } from '@global/constant/package_name';
 import pluginImport from 'eslint-plugin-import-x';
 
 import type { Linter } from 'eslint';
-import { PACKAGE_NAME } from '@global/constant/package_name';
 
 const imports: Linter.Config = {
   name: `${PACKAGE_NAME}/import`,
