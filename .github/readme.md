@@ -257,6 +257,7 @@ The list of the used plugins and the names are here:
 </h2>
 
 ```json
+{
   "editor.formatOnSave": false,
   "editor.suggest.showWords": false,
   "eslint.run": "onSave",
@@ -317,6 +318,7 @@ The list of the used plugins and the names are here:
   "[yaml]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
+}
 ```
 
 <br />
