@@ -3,7 +3,6 @@ type ConfigurationOption = {
   readonly html?: boolean;
   readonly json?: boolean;
   readonly regex?: boolean;
-  readonly solid?: boolean;
   readonly astro?: boolean;
   readonly ignore?: string[];
   readonly unicorn?: boolean;
