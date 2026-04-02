@@ -7,6 +7,7 @@ const typescriptOverrides: Linter.Config[] = [
     name: `${PACKAGE_NAME}/typescript/definitions`,
     files: ['**/*.d.ts'],
     rules: {
+      'ts/consistent-type-exports': 'off',
       'ts/consistent-type-definitions': 'off',
       'ts/triple-slash-reference': 'off',
       'ts/no-explicit-any': 'off',
