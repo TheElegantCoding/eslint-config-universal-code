@@ -1,11 +1,7 @@
 import type { Linter } from 'eslint';
 
 const style: Linter.RulesRecord = {
-  'arrow-body-style': [
-    'error',
-    'always',
-    { requireReturnForObjectLiteral: false }
-  ],
+  'arrow-body-style': ['error', 'always'],
   camelcase: ['error', { ignoreDestructuring: false, properties: 'never' }],
   curly: ['error', 'all'],
   'dot-notation': 'error',
