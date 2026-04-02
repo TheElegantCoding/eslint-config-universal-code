@@ -34,15 +34,32 @@ const typescriptGeneralRule: Linter.RulesRecord = {
     'error',
     {
       selector: 'default',
-      format: ['camelCase', 'PascalCase'],
+      format: [
+        'camelCase',
+        'PascalCase',
+        'snake_case',
+        'UPPER_CASE'
+      ],
       leadingUnderscore: 'allow'
     },
-    { selector: 'typeLike', format: ['PascalCase'] },
-    { selector: 'variable', format: [
-      'camelCase',
-      'UPPER_CASE',
-      'PascalCase'
-    ] },
+    {
+      selector: 'typeLike',
+      format: [
+        'PascalCase',
+        'UPPER_CASE',
+        'camelCase',
+        'snake_case'
+      ]
+    },
+    {
+      selector: 'variable',
+      format: [
+        'camelCase',
+        'UPPER_CASE',
+        'PascalCase',
+        'snake_case'
+      ]
+    },
     {
       format: null,
       modifiers: ['requiresQuotes'],
