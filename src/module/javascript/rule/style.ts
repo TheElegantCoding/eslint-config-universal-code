@@ -3,7 +3,7 @@ import type { Linter } from 'eslint';
 const style: Linter.RulesRecord = {
   'arrow-body-style': [
     'error',
-    'as-needed',
+    'always',
     { requireReturnForObjectLiteral: false }
   ],
   camelcase: ['error', { ignoreDestructuring: false, properties: 'never' }],
