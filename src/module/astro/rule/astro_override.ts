@@ -12,6 +12,7 @@ const astroOverride: Linter.Config[] = [
       'import/named': 'off',
       'import/no-named-as-default-member': 'off',
       'import/no-unresolved': 'off',
+      'no-duplicate-imports': 'off',
       'style/eol-last': 'off',
       'style/jsx-one-expression-per-line': 'off'
     }
