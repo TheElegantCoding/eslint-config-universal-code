@@ -28,7 +28,6 @@ const typescriptGeneralRule: Linter.RulesRecord = {
   'ts/consistent-type-imports': ['error', { fixStyle: 'separate-type-imports', prefer: 'type-imports' }],
   'ts/default-param-last': bestPractice['default-param-last'] ?? 'off',
   'ts/max-params': bestPractice['max-params'] ?? 'off',
-  'ts/member-ordering': 'error',
   'ts/method-signature-style': 'error',
   'ts/naming-convention': [
     'error',
