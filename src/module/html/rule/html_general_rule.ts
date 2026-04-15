@@ -3,8 +3,8 @@ import { INDENT } from '@global/constant/format_rules';
 import type { Linter } from 'eslint';
 
 const htmlGeneralRule: Linter.RulesRecord = {
-  '@html-eslint/class-spacing': 'error',
-  '@html-eslint/no-obsolete-attrs': 'error',
+  'html/class-spacing': 'error',
+  'html/no-obsolete-attrs': 'error',
   'html/attrs-newline': ['error', { closeStyle: 'newline', ifAttrsThan: 2 }],
   'html/element-newline': 'error',
   'html/id-naming-convention': 'error',
