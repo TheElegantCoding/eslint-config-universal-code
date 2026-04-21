@@ -1,0 +1,14 @@
+{
+  "lintStaged": {
+    "*.ts": "bunx tsc --noEmit",
+    "*.{ts,js,json,yml,yaml}": "bunx eslint --fix"
+  },
+  "release": {
+    "releaseToGithub": true
+  },
+  "changelog": {
+    "changelogPath": "CHANGELOG.md",
+    "generateChangelog": true
+  },
+  "packageManager": "bun"
+}
