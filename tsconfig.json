@@ -10,6 +10,7 @@
       "@module/*": ["src/module/*"]
     },
     "resolveJsonModule": true,
+    "types": ["node"],
     "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
