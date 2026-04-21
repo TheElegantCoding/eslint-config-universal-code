@@ -1,37 +1,37 @@
-<img src="./asset/illustration/wave_header.svg" width="100%" align="center"/>
+<img src="./.github/asset/illustration/wave_header.svg" width="100%" />
 
 <h1 id="top" align="center">
-  <img src="./asset/illustration/eslint.svg" width="32px" align="center" />
+  <img src="./.github/asset/illustration/eslint.svg" width="28px" align="center" />
   Universal Eslint Configuration
 </h1>
 
 <br />
 
-<img src="./asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
+<img src="./.github/asset/illustration/divider.svg" alt="divider" width="100%" />
 
 <pre align="center">
   <a href="#installation">📦 SETUP</a> • <a href="#configuration">⚙️ CONFIGURATION</a> • <a href="#features">🛰️ FEATURES</a> • <a href="#vscode-settings">💻 VSCODE</a>
 </pre>
 
-<img src="./asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
+<img src="./.github/asset/illustration/divider.svg" alt="divider" width="100%" />
 
-<img src="./asset/illustration/cover.svg" width="100%" align="center" />
+<img src="./.github/asset/illustration/eslint_cover.svg" width="100%" />
 
 <br />
 
 <div align="center">
-  <img src="./asset/illustration/eslint_badget.svg" height="28px" />&nbsp;&nbsp;&nbsp;
-  <img src="./asset/illustration/bun_badget.svg" height="28px" />&nbsp;&nbsp;&nbsp;
-  <img src="./asset/illustration/github_badget.svg" height="28px" />&nbsp;&nbsp;&nbsp;
-  <img src="./asset/illustration/typescript_badget.svg" height="28px" />&nbsp;&nbsp;&nbsp;
-  <img src="./asset/illustration/npm_badget.svg" height="28px" />&nbsp;&nbsp;&nbsp;
-  <img src="./asset/illustration/git_badget.svg" height="28px" />
+  <img src="./.github/asset/illustration/eslint_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
+  <img src="./.github/asset/illustration/bun_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
+  <img src="./.github/asset/illustration/github_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
+  <img src="./.github/asset/illustration/typescript_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
+  <img src="./.github/asset/illustration/npm_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
+  <img src="./.github/asset/illustration/git_badge.svg" height="34px" />
 </div>
 
-<img src="./asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
+<img src="./.github/asset/illustration/divider.svg" alt="divider" width="100%" />
 
 <h2 id="about">
-  <img src="./asset/icon/information.svg" width="24px" align="center"/>
+  <img src="./.github/asset/icon/information.svg" width="24px" align="center"/>
   About
 </h2>
 
@@ -39,7 +39,7 @@
 <tr>
 <td>
 This GitHub repository offers a powerful ESLint configuration to elevate your coding experience. Proactively identify and fix potential errors before they cause issues, preventing runtime failures and streamlining your development workflow.
-
+<br />
 The configuration enforces consistent coding style and best practices, making your codebase easier to understand, modify, and collaborate on in the long run. It's built to be adaptable, allowing you to fine-tune the rules to your project's specific needs.
 </td>
 </tr>
@@ -47,78 +47,78 @@ The configuration enforces consistent coding style and best practices, making yo
 
 <br />
 
-<img src="./asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
+<img src="./.github/asset/illustration/divider.svg" alt="divider" width="100%" />
 
 <h2 id="table-of-content">
-  <img src="./asset/icon/book.svg" width="24px" align="center"/>
+  <img src="./.github/asset/icon/book.svg" width="24px" align="center"/>
   Table of content
 </h2>
 
-- [<img src="./asset/icon/information.svg" width="20px" align="center" /> About](#about)
-- [<img src="./asset/icon/satellite.svg" width="20px" align="center" /> Features](#features)
-- [<img src="./asset/icon/thunder.svg" width="20px" align="center" /> Requirements](#requirements)
-- [<img src="./asset/icon/package.svg" width="20px" align="center" /> Installation](#installation)
-- [<img src="./asset/icon/rocket.svg" width="20px" align="center" /> Usage](#usage)
-- [<img src="./asset/icon/gear.svg" width="20px" align="center" /> Configuration](#configuration)
-- [<img src="./asset/icon/gear.svg" width="20px" align="center" /> Recommended VsCode configuration](#vscode-settings)
+- [<img src="./.github/asset/icon/information.svg" width="20px" align="center" /> About](#about)
+- [<img src="./.github/asset/icon/satellite.svg" width="20px" align="center" /> Features](#features)
+- [<img src="./.github/asset/icon/thunder.svg" width="20px" align="center" /> Requirements](#requirements)
+- [<img src="./.github/asset/icon/package.svg" width="20px" align="center" /> Installation](#installation)
+- [<img src="./.github/asset/icon/rocket.svg" width="20px" align="center" /> Usage](#usage)
+- [<img src="./.github/asset/icon/gear.svg" width="20px" align="center" /> Configuration](#configuration)
+- [<img src="./.github/asset/icon/gear.svg" width="20px" align="center" /> Recommended VsCode configuration](#vscode-settings)
 
 <br />
 
-<img src="./asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
+<img src="./.github/asset/illustration/divider.svg" alt="divider" width="100%" />
 
 <h2 id="features">
-  <img src="./asset/icon/satellite.svg" width="24px" align="center" />
+  <img src="./.github/asset/icon/satellite.svg" width="24px" align="center" />
   Features
 </h2>
 
-- <img src="./asset/icon/eslint.svg" width="24px" align="center" /> `Eslint` - Linter core engine.
-- <img src="./asset/icon/astro.svg" width="24px" align="center" /> `Astro` - Awesome Astro components linting.
-- <img src="./asset/icon/html.svg" width="24px" align="center" /> `Html` - Tidy and consistent HTML files.
-- <img src="./asset/icon/import.svg" width="24px" align="center" /> `Import` - Manage imports effectively.
-- <img src="./asset/icon/perfectionist.svg" width="24px" align="center" /> `Perfectionist` - Automated sorting and strict quality.
-- <img src="./asset/icon/stylistic.svg" width="24px" align="center" /> `Stylistic` - Beautiful Allman-style formatting.
-- <img src="./asset/icon/typescript.svg" width="24px" align="center" /> `Typescript` - Strong type safety for TS 6.0.
-- <img src="./asset/icon/unicorn.svg" width="24px" align="center" /> `Unicorn` - 100+ advanced modern rules.
+- <img src="./.github/asset/icon/eslint.svg" width="20px" align="center" /> `Eslint` - Linter core engine.
+- <img src="./.github/asset/icon/astro.svg" width="20px" align="center" /> `Astro` - Awesome Astro components linting.
+- <img src="./.github/asset/icon/html.svg" width="20px" align="center" /> `Html` - Tidy and consistent HTML files.
+- <img src="./.github/asset/icon/import.svg" width="20px" align="center" /> `Import` - Manage imports effectively.
+- <img src="./.github/asset/icon/perfectionist.svg" width="20px" align="center" /> `Perfectionist` - Automated sorting and strict quality.
+- <img src="./.github/asset/icon/stylistic.svg" width="20px" align="center" /> `Stylistic` - Beautiful Allman-style formatting.
+- <img src="./.github/asset/icon/typescript.svg" width="20px" align="center" /> `Typescript` - Strong type safety for TS 6.0.
+- <img src="./.github/asset/icon/unicorn.svg" width="20px" align="center" /> `Unicorn` - 100+ advanced modern rules.
 
-<img src="./asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
+<img src="./.github/asset/illustration/divider.svg" alt="divider" width="100%" />
 
 <h2 id="requirements">
-  <img src="./asset/icon/thunder.svg" width="24px" align="center" />
+  <img src="./.github/asset/icon/thunder.svg" width="24px" align="center" />
   Requirements
 </h2>
 
-- <img src="./asset/icon/node.svg" width="20px" align="center" /> node >= **22.17.0**
-- <img src="./asset/icon/eslint.svg" width="20px" align="center" /> eslint >= **10.10.0**
-- <img src="./asset/icon/bun.svg" width="20px" align="center" /> bun >= **1.1.0**
+- <img src="./.github/asset/icon/node.svg" width="20px" align="center" /> node >= **22.17.0**
+- <img src="./.github/asset/icon/eslint.svg" width="20px" align="center" /> eslint >= **10.10.0**
+- <img src="./.github/asset/icon/bun.svg" width="20px" align="center" /> bun >= **1.1.0**
 
 <br />
 
-<img src="./asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
+<img src="./.github/asset/illustration/divider.svg" alt="divider" width="100%" align="center" />
 
 <h2 id="installation">
-  <img src="./asset/icon/package.svg" width="24px" align="center" />
+  <img src="./.github/asset/icon/package.svg" width="24px" align="center" />
   Installation
 </h2>
 
-<h3><img src="./asset/icon/bun.svg" width="24px" align="center" /> Bun</h3>
+<h3><img src="./.github/asset/icon/bun.svg" width="24px" align="center" /> Bun</h3>
 
 ```bash
 bun i -D eslint-config-universal-code
 ```
 
-<h3><img src="./asset/icon/npm.svg" width="24px" align="center" /> Npm</h3>
+<h3><img src="./.github/asset/icon/npm.svg" width="24px" align="center" /> Npm</h3>
 
 ```bash
 npm i -D eslint-config-elegant-coding
 ```
 
-<h3><img src="./asset/icon/pnpm.svg" width="24px" align="center" /> Pnpm</h3>
+<h3><img src="./.github/asset/icon/pnpm.svg" width="24px" align="center" /> Pnpm</h3>
 
 ```bash
 pnpm i -D eslint-config-elegant-coding
 ```
 
-<h3><img src="./asset/icon/yarn.svg" width="24px" align="center" /> Yarn</h3>
+<h3><img src="./.github/asset/icon/yarn.svg" width="24px" align="center" /> Yarn</h3>
 
 ```bash
 yarn i -D eslint-config-elegant-coding
@@ -127,14 +127,13 @@ yarn i -D eslint-config-elegant-coding
 <br />
 
 <img 
-  src="./asset/illustration/divider.svg" 
+  src="./.github/asset/illustration/divider.svg" 
   alt="divider" 
   width="100%" 
-  align="center"
 />
 
 <h2 id="usage">
-  <img src="./asset/icon/rocket.svg" width="24px" align="center" />
+  <img src="./.github/asset/icon/rocket.svg" width="24px" align="center" />
   Usage
 </h2>
 
@@ -149,14 +148,13 @@ Create an `eslint.config.js` file in your root and add the following:
 <br />
 
 <img 
-  src="./asset/illustration/divider.svg" 
+  src="./.github/asset/illustration/divider.svg" 
   alt="divider" 
   width="100%" 
-  align="center"
 />
 
 <h2 id="configuration">
-  <img src="./asset/icon/gear.svg" width="24px" align="center" />
+  <img src="./.github/asset/icon/gear.svg" width="24px" align="center" />
   Configuration
 </h2>
 
@@ -245,14 +243,13 @@ The list of the used plugins and the names are here:
 <br />
 
 <img 
-  src="./asset/illustration/divider.svg" 
+  src="./.github/asset/illustration/divider.svg" 
   alt="divider" 
   width="100%" 
-  align="center"
 />
 
 <h2 id="vscode-settings">
-  <img src="./asset/icon/information.svg" width="24px" align="center"/>
+  <img src="./.github/asset/icon/information.svg" width="24px" align="center"/>
   Recommended VsCode Configuration
 </h2>
 
@@ -324,10 +321,9 @@ The list of the used plugins and the names are here:
 <br />
 
 <img 
-  src="./asset/illustration/divider.svg" 
+  src="./.github/asset/illustration/divider.svg" 
   alt="divider" 
   width="100%" 
-  align="center"
 />
 
 <pre align="center">
@@ -335,10 +331,9 @@ The list of the used plugins and the names are here:
 </pre>
 
 <img 
-  src="./asset/illustration/divider.svg" 
+  src="./.github/asset/illustration/divider.svg" 
   alt="divider" 
   width="100%" 
-  align="center"
 />
 
 <pre align="center">
@@ -346,7 +341,7 @@ The list of the used plugins and the names are here:
   developed by LuisdaByte and
 </pre>
 <div align="center">
-  <img src="./asset/illustration/astralys_logo.svg" width="120px" align="center" />
+  <img src="./.github/asset/illustration/astralys_logo.svg" width="120px" align="center" />
 </div>
 
-<img src="./asset/illustration/wave_footer.svg" width="100%" align="center" />
+<img src="./.github/asset/illustration/wave_footer.svg" width="100%" />
