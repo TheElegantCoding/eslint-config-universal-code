@@ -48,7 +48,7 @@
   "scripts": {
     "preinstall": "npx only-allow bun",
     "postinstall": "bunx gitlys init",
-    "release": "bunx gitlys release",
+    "release": "bun run build && bunx gitlys release",
     "typegen": "bun scripts/type_generator.ts",
     "watch": "tsup --watch",
     "build": "tsup",
