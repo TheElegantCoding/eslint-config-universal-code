@@ -23,7 +23,6 @@ const typescriptGeneralRule: Linter.RulesRecord = {
   'no-unused-expressions': 'off',
   'no-unused-vars': 'off',
   'no-use-before-define': 'off',
-  'ts/consistent-return': bestPractice['consistent-return'] ?? 'off',
   'ts/consistent-type-exports': 'error',
   'ts/consistent-type-imports': ['error', { fixStyle: 'separate-type-imports', prefer: 'type-imports' }],
   'ts/default-param-last': bestPractice['default-param-last'] ?? 'off',

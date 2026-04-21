@@ -10,7 +10,6 @@ const bestPractice: Linter.RulesRecord = {
   'accessor-pairs': 'error',
   'array-callback-return': ['error', { allowImplicit: true }],
   complexity: ['error', COMPLEXITY],
-  'consistent-return': 'error',
   'consistent-this': 'error',
   'default-case': 'error',
   'default-case-last': 'error',
