@@ -11,6 +11,7 @@ node_modules/
 # Build
 dist/
 *.tsbuildinfo
+src/typegen.d.ts
 
 # Env
 .env
