@@ -16,6 +16,11 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.0.15] - 2026-04-21
+
+- **fix:** update release script to include build step before publishing [`1932bfe`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/1932bfe) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** remove 'consistent-return' rule from best practice and typescript general configurations [`c8db7d8`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/c8db7d8) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.0.14] - 2026-04-21
 
 - **fix:** update description emoji in package.json [`191c9fa`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/191c9fa) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
