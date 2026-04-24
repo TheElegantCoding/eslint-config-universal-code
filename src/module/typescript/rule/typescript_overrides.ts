@@ -33,7 +33,8 @@ const typescriptOverrides: Linter.Config[] = [
     files: ['**/*.{test,spec}.{ts,tsx}'],
     rules: {
       'ts/no-explicit-any': 'off',
-      'ts/no-non-null-assertion': 'off'
+      'ts/no-non-null-assertion': 'off',
+      'max-statement': 'off'
     }
   }
 ];
