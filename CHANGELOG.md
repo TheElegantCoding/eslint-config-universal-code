@@ -16,6 +16,11 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.0.16] - 2026-04-24
+
+- **fix:** update gitlys dependency to version 1.1.6 [`b696809`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/b696809) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** turn off max statements for test files [`d15ec11`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/d15ec11) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.0.15] - 2026-04-21
 
 - **fix:** update release script to include build step before publishing [`1932bfe`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/1932bfe) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
