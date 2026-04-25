@@ -141,7 +141,6 @@ const unicornGeneralRule: Linter.RulesRecord = {
   'unicorn/string-content': 'error',
   'unicorn/switch-case-braces': 'error',
   'unicorn/template-indent': 'error',
-  'unicorn/text-encoding-identifier-case': 'error',
   'unicorn/throw-new-error': 'error'
 };
 
