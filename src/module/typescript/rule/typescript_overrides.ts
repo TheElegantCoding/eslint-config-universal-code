@@ -34,7 +34,7 @@ const typescriptOverrides: Linter.Config[] = [
     rules: {
       'ts/no-explicit-any': 'off',
       'ts/no-non-null-assertion': 'off',
-      'max-statement': 'off'
+      'max-statements': 'off'
     }
   }
 ];
