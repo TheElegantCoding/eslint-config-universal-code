@@ -16,6 +16,10 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.0.17] - 2026-04-25
+
+- **fix:** update gitlys dependency to version 1.1.7 [`7e32891`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/7e32891) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.0.16] - 2026-04-24
 
 - **fix:** update gitlys dependency to version 1.1.6 [`b696809`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/b696809) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
