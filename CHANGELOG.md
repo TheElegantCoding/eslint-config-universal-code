@@ -16,6 +16,11 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.0.19] - 2026-04-25
+
+- **fix:** remove 'no-await-in-loop' rule from error configuration [`468c2fc`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/468c2fc) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** add 'max-nested-callbacks' rule to typescript overrides [`4b93943`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/4b93943) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.0.18] - 2026-04-25
 
 - **fix:** remove 'unicorn/text-encoding-identifier-case' rule from unicornGeneralRule [`3e4979a`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/3e4979a) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
