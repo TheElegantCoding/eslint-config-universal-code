@@ -2,7 +2,7 @@ import { INDENT, MAX_LINE_LENGTH } from '@global/constant/format_rules';
 
 import type { Linter } from 'eslint';
 
-const stylisticGeneralRule: Linter.RulesRecord = {
+const stylisticRule: Linter.RulesRecord = {
   indent: 'off',
   'style/array-bracket-newline': ['error', { minItems: 3 }],
   'style/array-bracket-spacing': 'error',
@@ -167,4 +167,4 @@ const stylisticGeneralRule: Linter.RulesRecord = {
   'style/yield-star-spacing': ['error', 'after']
 };
 
-export { stylisticGeneralRule };
+export { stylisticRule };

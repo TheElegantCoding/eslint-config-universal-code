@@ -1,5 +1,5 @@
 import { PACKAGE_NAME } from '@global/constant/package_name';
-import { stylisticGeneralRule } from '@module/stylistic/rule/stylistic_general_rule';
+import { stylisticRule } from '@module/stylistic/rule/stylistic_rule';
 import pluginStylistic from '@stylistic/eslint-plugin';
 
 import type { Linter } from 'eslint';
@@ -9,7 +9,7 @@ const stylistic: Linter.Config = {
   plugins: {
     style: pluginStylistic
   },
-  rules: stylisticGeneralRule
+  rules: stylisticRule
 };
 
 export { stylistic };
