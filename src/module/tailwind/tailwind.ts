@@ -12,6 +12,7 @@ const tailwind: Linter.Config = {
     'tailwind/classnames-order': 'error',
     'tailwind/enforces-negative-arbitrary-values': 'error',
     'tailwind/enforces-shorthand': 'error',
+    'tailwind/important-modifier-suffix': 'error',
     'tailwind/migration-from-tailwind-2': 'error',
     'tailwind/no-contradicting-classname': 'error'
   }
