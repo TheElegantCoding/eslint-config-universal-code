@@ -1,16 +1,16 @@
 import { INDENT } from '@global/constant/format_rules';
-import { stylisticGeneralRule } from '@module/stylistic/rule/stylistic_general_rule';
+import { stylisticRule } from '@module/stylistic/rule/stylistic_rule';
 
 import type { Linter } from 'eslint';
 
-const jsonGeneralRule: Linter.RulesRecord = {
-  'json/array-bracket-newline': stylisticGeneralRule['style/array-bracket-newline'] ?? 'off',
-  'json/array-bracket-spacing': stylisticGeneralRule['style/array-bracket-spacing'] ?? 'off',
-  'json/array-element-newline': stylisticGeneralRule['style/array-element-newline'] ?? 'off',
-  'json/comma-dangle': stylisticGeneralRule['style/comma-dangle'] ?? 'off',
-  'json/comma-style': stylisticGeneralRule['style/comma-style'] ?? 'off',
+const jsonRule: Linter.RulesRecord = {
+  'json/array-bracket-newline': stylisticRule['style/array-bracket-newline'] ?? 'off',
+  'json/array-bracket-spacing': stylisticRule['style/array-bracket-spacing'] ?? 'off',
+  'json/array-element-newline': stylisticRule['style/array-element-newline'] ?? 'off',
+  'json/comma-dangle': stylisticRule['style/comma-dangle'] ?? 'off',
+  'json/comma-style': stylisticRule['style/comma-style'] ?? 'off',
   'json/indent': ['error', INDENT],
-  'json/key-spacing': stylisticGeneralRule['style/key-spacing'] ?? 'off',
+  'json/key-spacing': stylisticRule['style/key-spacing'] ?? 'off',
   'json/no-bigint-literals': 'error',
   'json/no-binary-expression': 'error',
   'json/no-binary-numeric-literals': 'error',
@@ -36,9 +36,9 @@ const jsonGeneralRule: Linter.RulesRecord = {
   'json/no-undefined-value': 'error',
   'json/no-unicode-codepoint-escapes': 'error',
   'json/no-useless-escape': 'error',
-  'json/object-curly-newline': stylisticGeneralRule['style/object-curly-newline'] ?? 'off',
+  'json/object-curly-newline': stylisticRule['style/object-curly-newline'] ?? 'off',
   'json/object-curly-spacing': ['error', 'always'],
-  'json/object-property-newline': stylisticGeneralRule['style/object-property-newline'] ?? 'off',
+  'json/object-property-newline': stylisticRule['style/object-property-newline'] ?? 'off',
   'json/quote-props': ['error', 'always'],
   'json/quotes': [
     'error',
@@ -51,4 +51,4 @@ const jsonGeneralRule: Linter.RulesRecord = {
   'no-irregular-whitespace': 'off'
 };
 
-export { jsonGeneralRule };
+export { jsonRule };
