@@ -11,6 +11,10 @@ const config = elegantCoding({
   html: true,
   json: true,
   tailwind: true
+}, {
+  rules: {
+    'import/no-namespace': 'off'
+  }
 });
 
 export default config;
