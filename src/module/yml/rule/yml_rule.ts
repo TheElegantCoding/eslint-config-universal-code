@@ -1,9 +1,9 @@
 import { INDENT } from '@global/constant/format_rules';
-import { stylisticGeneralRule } from '@module/stylistic/rule/stylistic_general_rule';
+import { stylisticRule } from '@module/stylistic/rule/stylistic_rule';
 
 import type { Linter } from 'eslint';
 
-const ymlGeneralRule: Linter.RulesRecord = {
+const ymlRule: Linter.RulesRecord = {
   'yml/block-mapping': 'error',
   'yml/block-mapping-colon-indicator-newline': 'error',
   'yml/block-mapping-question-indicator-newline': 'error',
@@ -11,9 +11,9 @@ const ymlGeneralRule: Linter.RulesRecord = {
   'yml/block-sequence-hyphen-indicator-newline': 'error',
   'yml/file-extension': ['error', { caseSensitive: true, extension: 'yml' }],
   'yml/flow-mapping-curly-newline': 'error',
-  'yml/flow-mapping-curly-spacing': stylisticGeneralRule['style/object-curly-spacing'] ?? 'off',
-  'yml/flow-sequence-bracket-newline': stylisticGeneralRule['style/array-bracket-newline'] ?? 'off',
-  'yml/flow-sequence-bracket-spacing': stylisticGeneralRule['style/array-bracket-spacing'] ?? 'off',
+  'yml/flow-mapping-curly-spacing': stylisticRule['style/object-curly-spacing'] ?? 'off',
+  'yml/flow-sequence-bracket-newline': stylisticRule['style/array-bracket-newline'] ?? 'off',
+  'yml/flow-sequence-bracket-spacing': stylisticRule['style/array-bracket-spacing'] ?? 'off',
   'yml/indent': ['error', INDENT],
   'yml/key-spacing': ['error', {
     afterColon: true,
@@ -23,6 +23,7 @@ const ymlGeneralRule: Linter.RulesRecord = {
   'yml/no-empty-document': 'error',
   'yml/no-empty-key': 'error',
   'yml/no-empty-mapping-value': 'error',
+  'yml/no-trailing-spaces': 'error',
   'yml/no-empty-sequence-entry': 'error',
   'yml/no-irregular-whitespace': 'error',
   'yml/no-multiple-empty-lines': ['error', { max: 1 }],
@@ -35,4 +36,4 @@ const ymlGeneralRule: Linter.RulesRecord = {
   'yml/vue-custom-block/no-parsing-error': 'error'
 };
 
-export { ymlGeneralRule };
+export { ymlRule };
