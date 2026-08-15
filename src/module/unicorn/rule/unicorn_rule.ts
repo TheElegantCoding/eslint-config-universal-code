@@ -1,7 +1,6 @@
 import type { Linter } from 'eslint';
 
-const unicornGeneralRule: Linter.RulesRecord = {
-  'unicorn/better-regex': 'error',
+const unicornRule: Linter.RulesRecord = {
   'unicorn/catch-error-name': 'error',
   'unicorn/consistent-assert': 'error',
   'unicorn/consistent-date-clone': 'error',
@@ -82,7 +81,7 @@ const unicornGeneralRule: Linter.RulesRecord = {
   'unicorn/prefer-date-now': 'error',
   'unicorn/prefer-default-parameters': 'error',
   'unicorn/prefer-dom-node-append': 'error',
-  'unicorn/prefer-dom-node-dataset': 'error',
+  'unicorn/dom-node-dataset': 'error',
   'unicorn/prefer-dom-node-remove': 'error',
   'unicorn/prefer-dom-node-text-content': 'error',
   'unicorn/prefer-event-target': 'error',
@@ -115,7 +114,7 @@ const unicornGeneralRule: Linter.RulesRecord = {
   'unicorn/prefer-ternary': 'error',
   'unicorn/prefer-top-level-await': 'error',
   'unicorn/prefer-type-error': 'error',
-  'unicorn/prevent-abbreviations': ['error', {
+  'unicorn/name-replacements': ['error', {
     allowList: {
       args: true,
       ctx: true,
@@ -140,8 +139,26 @@ const unicornGeneralRule: Linter.RulesRecord = {
   'unicorn/require-post-message-target-origin': 'error',
   'unicorn/string-content': 'error',
   'unicorn/switch-case-braces': 'error',
+  'unicorn/no-useless-iterator-to-array': 'error',
+  'unicorn/prefer-simple-condition-first': 'error',
+  'unicorn/switch-case-break-position': 'error',
+  'unicorn/require-passive-events': 'error',
+  'unicorn/require-css-escape': 'error',
+  'unicorn/prefer-string-repeat': 'error',
+  'unicorn/prefer-string-pad-start-end': 'error',
+  'unicorn/prefer-string-match-all': 'error',
+  'unicorn/prefer-split-limit': 'error',
+  'unicorn/prefer-queue-microtask': 'error',
+  'unicorn/prefer-math-abs': 'error',
+  'unicorn/prefer-iterator-to-array-at-end': 'error',
+  'unicorn/prefer-iterator-concat': 'error',
+  'unicorn/prefer-array-last-methods': 'error',
+  'unicorn/no-invalid-file-input-accept': 'error',
+  'unicorn/consistent-compound-words': 'error',
+  'unicorn/consistent-template-literal-escape': 'error',
+  'unicorn/better-dom-traversing': 'error',
   'unicorn/template-indent': 'error',
   'unicorn/throw-new-error': 'error'
 };
 
-export { unicornGeneralRule };
+export { unicornRule };
