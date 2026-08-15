@@ -1,11 +1,11 @@
 import { PACKAGE_NAME } from '@global/constant/package_name';
 import parserTs from '@typescript-eslint/parser';
-import parserAstro from 'astro-eslint-parser';
+import * as astroParser from 'astro-eslint-parser';
 import pluginAstro from 'eslint-plugin-astro';
 import globals from 'globals';
 
-import { astroGeneralRule } from './rule/astro_general_rule';
 import { astroOverride } from './rule/astro_override';
+import { astroRule } from './rule/astro_rule';
 
 import type { Linter } from 'eslint';
 
@@ -20,10 +20,10 @@ const astro: Linter.Config[] = [{
       Astro: 'readonly',
       Fragment: 'readonly'
     },
-    parser: parserAstro,
+    parser: astroParser,
     parserOptions: { extraFileExtensions: ['.astro'], parser: parserTs }
   },
-  rules: astroGeneralRule
+  rules: astroRule
 }, ...astroOverride];
 
 export { astro };
