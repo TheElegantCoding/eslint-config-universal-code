@@ -7,7 +7,7 @@ const tailwind: Linter.Config = {
     parserOptions: { ecmaFeatures: { jsx: true } }
   },
   name: 'tailwind',
-  plugins: { tailwind: pluginTailwind },
+  plugins: { tailwind: pluginTailwind as unknown as Plugin },
   rules: {
     'tailwind/classnames-order': 'error',
     'tailwind/enforces-negative-arbitrary-values': 'error',
