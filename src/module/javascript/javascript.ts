@@ -15,7 +15,6 @@ const javascript: Linter.Config = {
     sourceType: 'module',
     globals: {
       ...globals.browser,
-      ...globals.es2022,
       ...globals.node
     },
     parserOptions: { ecmaFeatures: { jsx: true } }
