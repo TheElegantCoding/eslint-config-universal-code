@@ -16,6 +16,26 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.1.0] - 2026-08-15
+
+- **feat:** add ymlRule for enhanced YAML linting configuration [`46f99e9`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/46f99e9) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** remove unnecessary TypeScript rules for improved linting configuration [`5a16f04`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/5a16f04) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add important-modifier-suffix rule for tailwind linting [`cc978a8`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/cc978a8) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add unicornRule for enhanced linting rules [`f6c3ce1`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/f6c3ce1) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add stylisticRule for improved code styling and linting [`008e1c6`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/008e1c6) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add perfectionistRule for enhanced code organization and sorting [`5bb1840`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/5bb1840) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add jsonRule configuration for enhanced JSON linting [`5ca1976`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/5ca1976) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** remove unused globals.es2022 from JavaScript linter configuration [`48091d6`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/48091d6) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add htmlRule configuration for enhanced HTML linting [`551fb75`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/551fb75) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** update astro parser import and rule configuration for consistency [`c772145`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/c772145) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add astro accessibility rules for improved compliance [`428ff7b`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/428ff7b) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** update IGNORE patterns to include directory wildcards for better matching [`19316d0`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/19316d0) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** refactor fileIgnore function for improved readability [`83cb93d`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/83cb93d) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** simplify eslintSetup function by using default parameter and initializing config array directly [`90c9973`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/90c9973) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** add configuration for 'import/no-namespace' rule [`f3c151d`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/f3c151d) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **chore:** update dependencies and devDependencies to latest versions [`6c32d27`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/6c32d27) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** simplify .editorconfig by removing unnecessary line endings configuration [`630cb52`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/630cb52) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.0.19] - 2026-04-25
 
 - **fix:** remove 'no-await-in-loop' rule from error configuration [`468c2fc`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/468c2fc) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
