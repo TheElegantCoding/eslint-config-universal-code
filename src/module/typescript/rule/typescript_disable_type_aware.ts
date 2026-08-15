@@ -9,7 +9,6 @@ const typescriptDisableTypeAware: Linter.RulesRecord = {
   'ts/no-array-delete': 'off',
   'ts/no-base-to-string': 'off',
   'ts/no-confusing-void-expression': 'off',
-  'ts/no-duplicate-type-constituents': 'off',
   'ts/no-floating-promises': 'off',
   'ts/no-for-in-array': 'off',
   'ts/no-implied-eval': 'off',

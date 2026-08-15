@@ -24,7 +24,6 @@ const typescriptOverrides: Linter.Config[] = [
     rules: {
       'ts/no-explicit-any': 'off',
       'ts/no-unsafe-assignment': 'off',
-      'ts/no-var-requires': 'off',
       'import/no-default-export': 'off'
     }
   },

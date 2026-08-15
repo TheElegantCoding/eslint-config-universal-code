@@ -12,7 +12,6 @@ const typescriptStrictTypedChecked: Linter.RulesRecord = {
   'ts/no-array-delete': 'error',
   'ts/no-base-to-string': 'error',
   'ts/no-confusing-void-expression': 'error',
-  'ts/no-duplicate-type-constituents': 'error',
   'ts/no-floating-promises': 'error',
   'ts/no-for-in-array': 'error',
   'ts/no-implied-eval': error['no-implied-eval'] ?? 'off',
