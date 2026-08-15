@@ -1,6 +1,6 @@
 import type { Linter } from 'eslint';
 
-const perfectionistGeneralRule: Linter.RulesRecord = {
+const perfectionistRule: Linter.RulesRecord = {
   'perfectionist/sort-array-includes': ['error', { ignoreCase: true, type: 'natural' }],
   'perfectionist/sort-classes': ['error', {
     groups: [
@@ -44,14 +44,11 @@ const perfectionistGeneralRule: Linter.RulesRecord = {
     order: 'asc',
     type: 'natural'
   }],
-  'perfectionist/sort-interfaces': ['error', { ignoreCase: true, type: 'line-length' }],
   'perfectionist/sort-intersection-types': ['error', { order: 'asc', type: 'line-length' }],
   'perfectionist/sort-jsx-props': ['error', { ignoreCase: true, type: 'line-length' }],
   'perfectionist/sort-maps': ['error', { ignoreCase: true, type: 'natural' }],
   'perfectionist/sort-named-exports': ['error', { order: 'asc', type: 'line-length' }],
-  'perfectionist/sort-named-imports': ['error', { order: 'asc', type: 'line-length' }],
-  'perfectionist/sort-object-types': ['error', { ignoreCase: true, type: 'line-length' }],
-  'perfectionist/sort-union-types': ['error', { order: 'asc', type: 'line-length' }]
+  'perfectionist/sort-named-imports': ['error', { order: 'asc', type: 'line-length' }]
 };
 
-export { perfectionistGeneralRule };
+export { perfectionistRule };
