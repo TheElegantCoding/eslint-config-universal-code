@@ -1,18 +1,17 @@
 const IGNORE = [
-  // Directorios de dependencias y build (Standard)
-  'node_modules',
-  'dist',
-  'output',
-  'coverage',
-  'temp',
+  '**/node_modules/**',
+  '**/dist/**',
+  '**/output/**',
+  '**/coverage/**',
+  '**/temp/**',
 
-  '**/.next',
-  '**/.nuxt',
-  '**/.vercel',
-  '**/.cache',
-  '**/.vitepress/cache',
-  '**/.eslint-config-inspector',
-  '**/.astro',
+  '**/.next/**',
+  '**/.nuxt/**',
+  '**/.vercel/**',
+  '**/.cache/**',
+  '**/.vitepress/cache/**',
+  '**/.eslint-config-inspector/**',
+  '**/.astro/**',
 
   '**/*.lock',
   '**/bun.lockb',
@@ -22,7 +21,7 @@ const IGNORE = [
 
   '**/auto-import?(s).d.ts',
   '**/components.d.ts',
-  '**/__snapshots__'
+  '**/__snapshots__/**'
 ];
 
 export { IGNORE };
