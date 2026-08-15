@@ -2,9 +2,10 @@ import { INDENT } from '@global/constant/format_rules';
 
 import type { Linter } from 'eslint';
 
-const htmlGeneralRule: Linter.RulesRecord = {
+const htmlRule: Linter.RulesRecord = {
   'html/class-spacing': 'error',
   'html/no-obsolete-attrs': 'error',
+  'html/require-content': 'error',
   'html/attrs-newline': ['error', { closeStyle: 'newline', ifAttrsMoreThan: 2 }],
   'html/element-newline': 'error',
   'html/id-naming-convention': 'error',
@@ -15,7 +16,7 @@ const htmlGeneralRule: Linter.RulesRecord = {
   'html/no-aria-hidden-body': 'error',
   'html/no-duplicate-attrs': 'error',
   'html/no-duplicate-id': 'error',
-  'html/no-extra-spacing-attrs': 'error',
+  'html/no-extra-spacing-tags': 'error',
   'html/no-heading-inside-button': 'error',
   'html/no-ineffective-attrs': 'error',
   'html/no-inline-styles': 'error',
@@ -45,4 +46,4 @@ const htmlGeneralRule: Linter.RulesRecord = {
   'html/sort-attrs': ['error', { priority: [] }]
 };
 
-export { htmlGeneralRule };
+export { htmlRule };
