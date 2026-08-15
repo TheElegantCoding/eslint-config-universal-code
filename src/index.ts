@@ -17,15 +17,13 @@ import { yml } from '@module/yml/yml';
 import type { ConfigurationOption } from '@global/type/configuration_option';
 import type { Linter } from 'eslint';
 
-const eslintSetup = (option: ConfigurationOption, override: Linter.Config | Linter.Config[] = []): Linter.Config[] => {
-  const config: Linter.Config[] = [];
-
-  config.push(
+const eslintSetup = (option: ConfigurationOption, override?: Linter.Config | Linter.Config[]): Linter.Config[] => {
+  const config: Linter.Config[] = [
     fileIgnore(option.ignore),
     javascript,
     node,
     ...imports
-  );
+  ];
 
   if (option.stylistic ?? false) { config.push(stylistic); }
   if (option.unicorn ?? false) { config.push(unicorn); }
@@ -37,7 +35,9 @@ const eslintSetup = (option: ConfigurationOption, override: Linter.Config | Lint
   if (option.json ?? false) { config.push(...json); }
   if (option.yml ?? false) { config.push(yml); }
 
-  if (Object.keys(override).length > 0) { config.push(...Array.isArray(override) ? override : [override]); }
+  if (override) {
+    config.push(...Array.isArray(override) ? override : [override]);
+  }
 
   return config;
 };
