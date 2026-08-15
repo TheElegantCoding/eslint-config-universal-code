@@ -1,6 +1,6 @@
 import type { Linter } from 'eslint';
 
-const astroGeneralRule: Linter.RulesRecord = {
+const astroRule: Linter.RulesRecord = {
   'astro/jsx-a11y/alt-text': 'error',
   'astro/jsx-a11y/anchor-ambiguous-text': 'error',
   'astro/jsx-a11y/anchor-has-content': 'error',
@@ -9,6 +9,7 @@ const astroGeneralRule: Linter.RulesRecord = {
   'astro/jsx-a11y/aria-props': 'error',
   'astro/jsx-a11y/aria-proptypes': 'error',
   'astro/jsx-a11y/aria-role': 'error',
+  'astro/no-prerender-export-outside-pages': 'error',
   'astro/jsx-a11y/aria-unsupported-elements': 'error',
   'astro/jsx-a11y/autocomplete-valid': 'error',
   'astro/jsx-a11y/click-events-have-key-events': 'error',
@@ -49,8 +50,7 @@ const astroGeneralRule: Linter.RulesRecord = {
     'error',
     'always',
     { omitLastInOneLineBlock: false }
-  ],
-  'astro/valid-compile': 'error'
+  ]
 };
 
-export { astroGeneralRule };
+export { astroRule };
