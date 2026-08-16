@@ -1,4 +1,4 @@
-type ConfigurationOption = {
+type ConfigOption = {
   readonly yml?: boolean;
   readonly html?: boolean;
   readonly json?: boolean;
@@ -12,4 +12,4 @@ type ConfigurationOption = {
   readonly perfectionist?: boolean;
 };
 
-export type { ConfigurationOption };
+export type { ConfigOption };
