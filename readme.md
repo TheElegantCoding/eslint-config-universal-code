@@ -126,10 +126,10 @@ yarn i -D eslint-config-elegant-coding
 
 <br />
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <h2 id="usage">
@@ -147,10 +147,10 @@ Create an `eslint.config.js` file in your root and add the following:
 
 <br />
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <h2 id="configuration">
@@ -223,6 +223,19 @@ export default elegantCoding({
 ]);
 ```
 
+The default configuration is this:
+
+```ts
+{
+  json: true,
+  yml: true,
+  unicorn: true,
+  stylistic: true,
+  typescript: true,
+  perfectionist: true
+};
+```
+
 The list of the used plugins and the names are here:
 
 | New name | Original | Source |
@@ -242,10 +255,10 @@ The list of the used plugins and the names are here:
 
 <br />
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <h2 id="vscode-settings">
@@ -320,20 +333,20 @@ The list of the used plugins and the names are here:
 
 <br />
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <pre align="center">
   <a href="#top">BACK TO TOP</a>
 </pre>
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <pre align="center">
