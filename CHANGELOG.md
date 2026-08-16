@@ -16,6 +16,15 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.1.1] - 2026-08-16
+
+- **fix:** update eslint peer dependency version to >=10.8.1 for compatibility [`ee93b7d`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/ee93b7d) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** update eslintSetup to use ConfigOption type and defaultOption [`e70c19c`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/e70c19c) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add defaultOption for standardized configuration settings [`118f7a9`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/118f7a9) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **feat:** add ConfigOption type for enhanced configuration flexibility [`cf9dadd`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/cf9dadd) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** cast pluginTailwind to Plugin type for type safety [`d537aa1`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/d537aa1) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** correct formatting of files array in package.json [`bf3aaf2`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/bf3aaf2) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.1.0] - 2026-08-15
 
 - **feat:** add ymlRule for enhanced YAML linting configuration [`46f99e9`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/46f99e9) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
