@@ -59,7 +59,7 @@
     "lint-eslint": "eslint . --fix "
   },
   "peerDependencies": {
-    "eslint": ">=10.1.0"
+    "eslint": ">=10.8.1"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "0.64.0",
