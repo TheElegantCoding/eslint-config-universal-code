@@ -1,5 +1,6 @@
 /* eslint-disable complexity */
 /* eslint-disable max-statements */
+import { defaultOption } from '@global/constant/default_option';
 import { fileIgnore } from '@global/ignores';
 import { astro } from '@module/astro/astro';
 import { html } from '@module/html/html';
@@ -14,10 +15,11 @@ import { typescript } from '@module/typescript/typescript';
 import { unicorn } from '@module/unicorn/unicorn';
 import { yml } from '@module/yml/yml';
 
-import type { ConfigurationOption } from '@global/type/configuration_option';
+import type { ConfigOption } from '@global/type/config_option';
 import type { Linter } from 'eslint';
 
-const eslintSetup = (option: ConfigurationOption, override?: Linter.Config | Linter.Config[]): Linter.Config[] => {
+// eslint-disable-next-line style/max-len
+const eslintSetup = (option: ConfigOption = defaultOption, override?: Linter.Config | Linter.Config[]): Linter.Config[] => {
   const config: Linter.Config[] = [
     fileIgnore(option.ignore),
     javascript,
