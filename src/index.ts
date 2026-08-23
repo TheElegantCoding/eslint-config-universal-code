@@ -28,7 +28,7 @@ const eslintSetup = (option: ConfigOption = defaultOption, override?: Linter.Con
   ];
 
   if (option.stylistic ?? false) { config.push(stylistic); }
-  if (option.unicorn ?? false) { config.push(unicorn); }
+  if (option.unicorn ?? false) { config.push(...unicorn); }
   if (option.perfectionist ?? false) { config.push(perfectionist); }
   if (option.typescript ?? false) { config.push(...typescript); }
   if (option.html ?? false) { config.push(html); }
