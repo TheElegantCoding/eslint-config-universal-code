@@ -16,6 +16,14 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.1.2] - 2026-08-23
+
+- **feat:** add unicorn override configuration for GitHub files [`4db29ef`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/4db29ef) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** update unicorn configuration to support array format and include overrides [`570b064`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/570b064) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** spread unicorn configuration in eslintSetup for correct handling [`044e08c`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/044e08c) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** update gitlys version to 2.2.1 and eslint peer dependency to >=10.8.1 for compatibility [`5a18988`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/5a18988) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **fix:** standardize divider image formatting in README and add default configuration example [`40161a8`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/40161a8) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.1.1] - 2026-08-16
 
 - **fix:** update eslint peer dependency version to >=10.8.1 for compatibility [`ee93b7d`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/ee93b7d) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
