@@ -16,6 +16,10 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.1.3] - 2026-09-10
+
+- **fix:** add checkFilenames option to unicornRule configuration [`53a9fd0`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/53a9fd0) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.1.2] - 2026-08-23
 
 - **feat:** add unicorn override configuration for GitHub files [`4db29ef`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/4db29ef) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
