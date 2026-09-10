@@ -123,6 +123,7 @@ const unicornRule: Linter.RulesRecord = {
       req: true,
       res: true
     },
+    checkFilenames: false,
     checkShorthandProperties: true,
     ignore: [
       String.raw`\.e2e$`,
