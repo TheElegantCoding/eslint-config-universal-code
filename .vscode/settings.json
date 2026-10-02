@@ -12,6 +12,10 @@
   "js/ts.format.placeOpenBraceOnNewLineForFunctions": true,
   "js/ts.preferences.importModuleSpecifier": "non-relative",
   "eslint.run": "onSave",
+  "eslint.options": {
+    "cache": true,
+    "cacheLocation": ".eslintcache"
+  },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
