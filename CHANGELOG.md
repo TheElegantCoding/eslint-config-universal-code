@@ -16,6 +16,29 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.1.4] - 2026-10-02
+
+- **fix:** remove deprecated 'ignoreDeprecations' option from tsconfig.json [`fdfd43a`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/fdfd43a) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** correct build script command in package.json [`88f4ded`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/88f4ded) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** correct 'ignores' to 'ignore' in ESLint configuration [`7981076`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/7981076) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** update eslint peer dependency version to >=10.11.0 in package.json [`2f064ba`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/2f064ba) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** correct spelling of 'behaviour' to 'behavior' in .gitattributes [`c27be2c`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/c27be2c) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **feat:** add type generator script for ESLint configuration [`4b8f382`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/4b8f382) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** add ignoreDeprecations option in tsconfig.json [`78f0933`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/78f0933) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** add ignores option for typegen.d.ts in ESLint configuration [`b983d3c`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/b983d3c) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** correct script path for type generation in package.json [`4fb7e60`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/4fb7e60) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** remove deprecated unicorn rules from configuration [`3f23343`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/3f23343) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **feat:** add unicornDisableRule configuration for ESLint [`b376d7c`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/b376d7c) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** include 'unicornDisableRule' in unicorn ESLint configuration [`d7a6ff6`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/d7a6ff6) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** add 'ts/no-generated-empty-object-type' rule to TypeScript ESLint configuration [`0c48624`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/0c48624) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** add ignores for config files in TypeScript ESLint configuration [`a957599`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/a957599) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** add 'tailwind/enforces-canonical-classname' rule to tailwind config [`1055d98`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/1055d98) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** enhance 'id-length' rule to include exceptions for specific identifiers [`e664757`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/e664757) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** update eslint options to include cache settings [`2815647`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/2815647) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** remove unnecessary .npmrc configurations [`16a43bb`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/16a43bb) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **fix:** add .eslintcache to .gitignore [`92e153f`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/92e153f) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- **chore:** update dependencies and improve build scripts [`a45674c`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/a45674c) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+
 ## 🚀 Version [1.1.3] - 2026-09-10
 
 - **fix:** add checkFilenames option to unicornRule configuration [`53a9fd0`](https://github.com/TheElegantCoding/eslint-config-elegant-coding/commit/53a9fd0) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
