@@ -11,7 +11,7 @@ const config = elegantCoding({
   html: true,
   json: true,
   tailwind: true,
-  ignores: ['/src/typegen.d.ts']
+  ignore: ['src/typegen.d.ts']
 }, {
   rules: {
     'import/no-namespace': 'off'
