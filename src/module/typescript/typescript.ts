@@ -12,6 +12,7 @@ import type { Linter } from 'eslint';
 
 const typescript: Linter.Config[] = [{
   files: ['**/*.?([cm])[jt]s?(x)'],
+  ignores: ['**/*.config.?([cm])js', '**/*.config.?([cm])ts'],
   languageOptions: {
     parser: parserTs,
     parserOptions: {
