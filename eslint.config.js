@@ -10,7 +10,8 @@ const config = elegantCoding({
   yml: true,
   html: true,
   json: true,
-  tailwind: true
+  tailwind: true,
+  ignores: ['/src/typegen.d.ts']
 }, {
   rules: {
     'import/no-namespace': 'off'
