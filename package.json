@@ -54,7 +54,7 @@
     "dev": "npx @eslint/config-inspector --config eslint.config.js",
     "build:inspector": "bun run build && npx @eslint/config-inspector build",
     "type-check": "tsc --pretty --noEmit",
-    "lint": "eslint . --fix "
+    "lint": "eslint . --fix --cache"
   },
   "peerDependencies": {
     "eslint": ">=10.11.0"
