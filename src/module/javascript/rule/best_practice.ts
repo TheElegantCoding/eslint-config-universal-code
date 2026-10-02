@@ -18,7 +18,15 @@ const bestPractice: Linter.RulesRecord = {
   'func-name-matching': ['error', { considerPropertyDescriptor: true }],
   'grouped-accessor-pairs': 'error',
   'guard-for-in': 'error',
-  'id-length': ['error', { min: 2 }],
+  'id-length': ['error', { min: 2, exceptions: [
+    'id',
+    'i',
+    'j',
+    'k',
+    'z',
+    'x',
+    'y'
+  ] }],
   'init-declarations': 'error',
   'logical-assignment-operators': [
     'error',
