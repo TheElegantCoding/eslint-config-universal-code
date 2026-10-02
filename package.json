@@ -50,7 +50,7 @@
     "release": "bun run build && bunx gitlys release",
     "typegen": "bun script/type_generator.ts",
     "watch": "tsup --watch",
-    "build": "bunx tun lint && tsup",
+    "build": "bun run lint && tsup",
     "dev": "npx @eslint/config-inspector --config eslint.config.js",
     "build:inspector": "bun run build && npx @eslint/config-inspector build",
     "type-check": "tsc --pretty --noEmit",
