@@ -111,27 +111,8 @@ const unicornRule: Linter.RulesRecord = {
   'unicorn/prefer-string-trim-start-end': 'error',
   'unicorn/prefer-structured-clone': 'error',
   'unicorn/prefer-switch': 'error',
-  'unicorn/prefer-ternary': 'error',
   'unicorn/prefer-top-level-await': 'error',
   'unicorn/prefer-type-error': 'error',
-  'unicorn/name-replacements': ['error', {
-    allowList: {
-      args: true,
-      ctx: true,
-      props: true,
-      Props: true,
-      req: true,
-      res: true
-    },
-    checkFilenames: false,
-    checkShorthandProperties: true,
-    ignore: [
-      String.raw`\.e2e$`,
-      String.raw`\.e2e-spec$`,
-      'env.d',
-      'ImportMetaEnv'
-    ]
-  }],
   'unicorn/relative-url-style': 'error',
   'unicorn/require-array-join-separator': 'error',
   'unicorn/require-module-attributes': 'error',
