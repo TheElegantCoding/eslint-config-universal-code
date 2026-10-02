@@ -14,7 +14,8 @@ const tailwind: Linter.Config = {
     'tailwind/enforces-shorthand': 'error',
     'tailwind/important-modifier-suffix': 'error',
     'tailwind/migration-from-tailwind-2': 'error',
-    'tailwind/no-contradicting-classname': 'error'
+    'tailwind/no-contradicting-classname': 'error',
+    'tailwind/enforces-canonical-classname': 'error'
   }
 };
 
