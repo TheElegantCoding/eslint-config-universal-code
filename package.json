@@ -49,7 +49,7 @@
     "preinstall": "npx only-allow bun",
     "postinstall": "bunx gitlys init",
     "release": "bun run build && bunx gitlys release",
-    "typegen": "bun scripts/type_generator.ts",
+    "typegen": "bun script/type_generator.ts",
     "watch": "tsup --watch",
     "build": "bunx tun lint && tsup",
     "dev": "npx @eslint/config-inspector --config eslint.config.js",
