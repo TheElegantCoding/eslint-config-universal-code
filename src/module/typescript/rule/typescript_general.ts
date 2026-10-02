@@ -72,6 +72,7 @@ const typescriptGeneralRule: Linter.RulesRecord = {
     }
   ],
   'ts/no-confusing-non-null-assertion': 'error',
+  'ts/no-generated-empty-object-type': 'error',
   'ts/no-dupe-class-members': error['no-dupe-class-members'] ?? 'off',
   'ts/no-import-type-side-effects': 'error',
   'ts/no-invalid-this': error['no-invalid-this'] ?? 'off',
