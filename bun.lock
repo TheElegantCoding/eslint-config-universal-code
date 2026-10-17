@@ -31,7 +31,7 @@
         "@types/eslint-plugin-tailwindcss": "^3.17.0",
         "@types/node": "^26.6.4",
         "eslint-typegen": "^2.3.1",
-        "gitlys": "^2.2.1",
+        "gitlys": "^2.2.4",
         "tsup": "^8.5.1",
         "typescript": "^5.9.3",
       },
@@ -625,7 +625,7 @@
 
     "get-tsconfig": ["get-tsconfig@4.13.7", "", { "dependencies": { "resolve-pkg-maps": "^1.0.0" } }, "sha512-7tN6rFgBlMgpBML5j8typ92BKFi2sFQvIdpAqLA2beia5avZDrMs0FLZiM5etShWq5irVyGcGMEA1jcDaK7A/Q=="],
 
-    "gitlys": ["gitlys@2.2.1", "", { "dependencies": { "@inquirer/prompts": "^8.4.1" }, "bin": { "gitlys": "dist/cli.js" } }, "sha512-sf6mXbyccWMIHyoAGdgmGjNIwAvlrT0jHlSFs8rOyqdTVEbuQ8+wkLl03EXhE4TP9sn66SjaRYCZwlJUX0orxw=="],
+    "gitlys": ["gitlys@2.2.4", "", { "dependencies": { "@inquirer/prompts": "^8.4.1" }, "bin": { "gitlys": "dist/cli.js" } }, "sha512-zbXSiXovJwnfHtKGq4Hw4Zkl2hv0PPw4IyB7XAZBDJNWMkfJIpbRuoTmEDCHhB0NMJNLMX6zeNezRzLy20n5gw=="],
 
     "glob-parent": ["glob-parent@6.0.2", "", { "dependencies": { "is-glob": "^4.0.3" } }, "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A=="],
 
