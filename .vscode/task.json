@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "type": "shell",
+    "label": "Ts watch",
+    "command": "bun",
+    "args": ["run", "dev"],
+    "isBackground": true,
+    "problemMatcher": "$tsc-watch",
+    "presentation": {
+      "reveal": "always",
+      "panel": "shared"
+    },
+    "group": {
+      "kind": "build",
+      "isDefault": true
+    }
+  }]
+}
