@@ -16,6 +16,22 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.1.5] - 2026-10-17
+
+- [[`4fdd058`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/4fdd058)] - **fix:** reorder author and description fields in package.json for consistency by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`6ccd1d9`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/6ccd1d9)] - **fix:** update tsconfig.json to include script directory in compilation by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`484c5da`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/484c5da)] - **fix:** remove security audit from build script for streamlined process by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`3592d09`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/3592d09)] - **fix:** update gitlys dependency from 2.2.1 to 2.2.4 for improved functionality by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`c543b12`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/c543b12)] - **chore:** update package.json for improved configuration and dependency management by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`325088e`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/325088e)] - **fix:** remove unnecessary input field from bug report template for clarity by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`f4da501`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/f4da501)] - **fix:** ensure consistent formatting settings in .editorconfig by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`c777a01`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/c777a01)] - **fix:** reorder properties in jsonOverride configuration for improved clarity by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`1a65125`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/1a65125)] - **feat:** add launch and task configurations for TypeScript development by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- [[`80ae72e`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/80ae72e)] - **fix:** update json5 to json4 in eslint validation settings by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`5aac746`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/5aac746)] - **fix:** update tsconfig.json include path to match project structure by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`55cf39d`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/55cf39d)] - **fix:** add block-exotic-subdeps and trust-policy options to .npmrc by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`06c83c5`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/06c83c5)] - **fix:** update eslint peer dependency version to >=10.11.0 and improve lint script with cache option by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+
 ## 🚀 Version [1.1.4] - 2026-10-02
 
 - **fix:** remove deprecated 'ignoreDeprecations' option from tsconfig.json [`fdfd43a`](https://github.com/TheElegantCoding/eslint-config-universal-code/commit/fdfd43a) by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
