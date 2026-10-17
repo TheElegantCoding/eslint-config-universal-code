@@ -40,6 +40,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "script/**/*"],
   "exclude": ["node_modules", "dist"]
 }
