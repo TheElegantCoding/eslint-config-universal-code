@@ -1,13 +1,10 @@
 {
   "name": "eslint-config-universal-code",
   "description": "📦 Eslint configuration for help you to identify and fix these errors before they cause problems in your code. It can also help you to develop good coding habits that will make your code easier to maintain in the long run.",
-  "author": {
-    "name": "Luis Monsalve <TheElegantCoding>"
-  },
+  "author": "Luis Monsalve",
   "version": "1.1.4",
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": false,
+  "homepage": "https://github.com/TheElegantCodign/starter-ts#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheElegantCoding/eslint-config-universal-code.git"
@@ -30,6 +27,9 @@
     "javascript",
     "code-style"
   ],
+  "bugs": {
+    "url": "https://github.com/TheElegantCoding/eslint-config-universal-code/issues"
+  },
   "type": "module",
   "exports": {
     ".": {
@@ -50,8 +50,9 @@
     "release": "bun run build && bunx gitlys release",
     "typegen": "bun script/type_generator.ts",
     "watch": "tsup --watch",
-    "build": "bun run lint && tsup",
+    "build": "bun run lint && bun run type-check && bun run security:audit && tsup",
     "dev": "npx @eslint/config-inspector --config eslint.config.js",
+    "security:audit": "bun audit",
     "build:inspector": "bun run build && npx @eslint/config-inspector build",
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint . --fix --cache"
@@ -60,35 +61,35 @@
     "eslint": ">=10.11.0"
   },
   "dependencies": {
-    "@html-eslint/eslint-plugin": "0.66.1",
+    "@html-eslint/eslint-plugin": "^0.66.1",
     "@html-eslint/parser": "^0.66.1",
-    "@stylistic/eslint-plugin": "5.10.0",
-    "@typescript-eslint/eslint-plugin": "8.71.0",
-    "@typescript-eslint/parser": "8.71.0",
-    "astro-eslint-parser": "3.2.0",
-    "eslint": "10.11.0",
-    "eslint-plugin-astro": "3.2.1",
-    "eslint-plugin-import-x": "4.17.1",
-    "eslint-plugin-jsonc": "3.4.2",
-    "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-n": "18.4.0",
-    "eslint-plugin-perfectionist": "5.12.1",
-    "eslint-plugin-regexp": "3.3.1",
-    "eslint-plugin-tailwindcss": "4.4.0",
-    "eslint-plugin-unicorn": "76.0.0",
-    "eslint-plugin-yml": "3.8.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.71.0",
+    "@typescript-eslint/parser": "^8.71.0",
+    "astro-eslint-parser": "^3.2.0",
+    "eslint": "^10.11.0",
+    "eslint-plugin-astro": "^3.2.1",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-jsonc": "^3.4.2",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-n": "^18.4.0",
+    "eslint-plugin-perfectionist": "^5.12.1",
+    "eslint-plugin-regexp": "^3.3.1",
+    "eslint-plugin-tailwindcss": "^4.4.0",
+    "eslint-plugin-unicorn": "^76.0.0",
+    "eslint-plugin-yml": "^3.8.1",
     "globals": "^17.13.0",
-    "jsonc-eslint-parser": "3.3.0",
-    "yaml-eslint-parser": "2.1.0"
+    "jsonc-eslint-parser": "^3.3.0",
+    "yaml-eslint-parser": "^2.1.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "3.5.0",
-    "@types/eslint": "9.6.1",
-    "@types/eslint-plugin-tailwindcss": "3.17.0",
+    "@eslint/config-inspector": "^3.5.0",
+    "@types/eslint": "^9.6.1",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
     "@types/node": "^26.6.4",
     "eslint-typegen": "^2.3.1",
-    "gitlys": "^2.2.1",
-    "tsup": "8.5.1",
-    "typescript": "5.9.3"
+    "gitlys": "^2.2.4",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
   }
 }
