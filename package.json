@@ -1,13 +1,16 @@
 {
   "name": "eslint-config-universal-code",
-  "description": "📦 Eslint configuration for help you to identify and fix these errors before they cause problems in your code. It can also help you to develop good coding habits that will make your code easier to maintain in the long run.",
-  "author": "Luis Monsalve",
   "version": "1.1.4",
+  "author": "Luis Monsalve",
+  "description": "📦 Eslint configuration for help you to identify and fix these errors before they cause problems in your code. It can also help you to develop good coding habits that will make your code easier to maintain in the long run.",
   "private": false,
   "homepage": "https://github.com/TheElegantCodign/starter-ts#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheElegantCoding/eslint-config-universal-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheElegantCoding/eslint-config-universal-code/issues"
   },
   "keywords": [
     "eslint",
@@ -27,17 +30,14 @@
     "javascript",
     "code-style"
   ],
-  "bugs": {
-    "url": "https://github.com/TheElegantCoding/eslint-config-universal-code/issues"
-  },
   "type": "module",
+  "main": "./dist/index.js",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": ["./dist"],
   "engines": {
